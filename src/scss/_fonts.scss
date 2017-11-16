@@ -1,0 +1,208 @@
+@font-face {
+	font-family: "GothamPro";
+	src: url("fonts/GothamProRegular/GothamProRegular.eot");
+	src: url("fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+	url("fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "GothamPro";
+	src: url("fonts/GothamProBold/GothamProBold.eot");
+	src: url("fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+	url("fonts/GothamProBold/GothamProBold.woff") format("woff"),
+	url("fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+}
+
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("fonts/OpenSansRegular/OpenSansRegular.eot");
+	src: url("fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+	url("fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+// @font-face {
+// 	font-family: "GothamProBlack";
+// 	src: url("fonts/GothamProBlack/GothamProBlack.eot");
+// 	src: url("fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+// 	url("fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "GothamProItalic";
+// 	src: url("fonts/GothamProItalic/GothamProItalic.eot");
+// 	src: url("fonts/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
+// 	url("fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "GothamProMedium";
+// 	src: url("fonts/GothamProMedium/GothamProMedium.eot");
+// 	src: url("fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+// 	url("fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "GothamProLight";
+// 	src: url("fonts/GothamProLight/GothamProLight.eot");
+// 	src: url("fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProLight/GothamProLight.woff") format("woff"),
+// 	url("fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "GothamProMediumItalic";
+// 	src: url("fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+// 	src: url("fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+// 	url("fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "GothamProLightItalic";
+// 	src: url("fonts/GothamProLightItalic/GothamProLightItalic.eot");
+// 	src: url("fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+// 	url("fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "GothamProBoldItalic";
+// 	src: url("fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+// 	src: url("fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
+// 	url("fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "GothamProBlackItalic";
+// 	src: url("fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+// 	src: url("fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
+// 	url("fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+
+
+
+
+
+
+
+
+// @font-face {
+// 	font-family: "OpenSansLight";
+// 	src: url("fonts/OpenSansLight/OpenSansLight.eot");
+// 	src: url("fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+// 	url("fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansItalic";
+// 	src: url("fonts/OpenSansItalic/OpenSansItalic.eot");
+// 	src: url("fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+// 	url("fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansBold";
+// 	src: url("fonts/OpenSansBold/OpenSansBold.eot");
+// 	src: url("fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+// 	url("fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansExtraBold";
+// 	src: url("fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+// 	src: url("fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+// 	url("fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansExtraBoldItalic";
+// 	src: url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+// 	src: url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+// 	url("fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansBoldItalic";
+// 	src: url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+// 	src: url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+// 	url("fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansRegularItalic";
+// 	src: url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+// 	src: url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+// 	url("fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansSemiBold";
+// 	src: url("fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+// 	src: url("fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+// 	url("fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }
+
+// @font-face {
+// 	font-family: "OpenSansSemiBoldItalic";
+// 	src: url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+// 	src: url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+// 	url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+// 	url("fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+// 	font-style: normal;
+// 	font-weight: normal;
+// }

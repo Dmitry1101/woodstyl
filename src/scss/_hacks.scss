@@ -1,0 +1,324 @@
+ 
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.4;
+	background-color: #eeeeee;
+	font-family: $f-o;
+	font-weight: 400;
+	color: $c-bck;
+}
+
+.container-fluid{
+	max-width: 1680px;
+}
+
+.whole{
+	max-width: 1920px;
+	margin: 0 auto;
+	position: relative;
+	background-color: $c-wh;
+}
+.blck{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.s{
+	padding: 50px 0;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.sect-title{
+	font-size: 31px;
+	font-family: $f-g;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.page-title{
+	font-size: 48px;
+	font-family: $f-g;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.c-grn{
+	color: $c-grn;
+}
+
+.c-bwn{
+	color: $c-bwn;
+}
+
+.c-bck{
+	color: $c-bck;
+}
+
+.bg-wh2{
+	background-color: $c-wh2;
+}
+
+.txt-blck{
+	max-width: 895px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.txt-blck-2{
+	max-width: 580px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.bg-grad{
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(248,248,248,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f8f8', GradientType=0 );
+}
+
+
+.fxx{
+	display: flex;
+	&-wrap{
+		flex-wrap: wrap;
+	}
+	&-bs-30{
+		flex-basis: 30%;
+	}
+	&-bs-35{
+		flex-basis: 35%;
+	}
+	&-bs-40{
+		flex-basis: 40%;
+	}
+	&-bs-50{
+		flex-basis: 50%;
+	}
+	&-bs-60{
+		flex-basis: 60%;
+	}	
+	&-bs-65{
+		flex-basis: 65%;
+	}	
+	&-bs-70{
+		flex-basis: 70%;
+	}
+	&-it{
+		// padding-left: 15px;
+		// padding-right: 15px;
+	}
+}
+
+.as-c{
+	align-self: center;
+}
+
+h1{
+
+}
+
+h2{
+	
+}
+h5{
+
+}
+
+.content{
+	line-height: 1.2;
+	p{
+		margin-bottom: 20px;
+		line-height: 1.7;
+	}
+	ul,ol{
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+	
+	li{
+		margin-bottom: 15px;
+	}
+
+
+	img{
+		margin-bottom: 20px;
+	}
+	strong{
+	}
+	iframe{
+		width: 100%;
+		height: auto;
+		min-height: 310px;
+		display: block;
+		margin: 40px auto;
+	}
+
+	table{
+		width: 100%;
+		margin: 30px 0;
+		tr:nth-child(even){
+			td{
+				background-color: #F6F6F6;
+			}
+		}
+		tr:nth-child(odd){
+			td{
+				background-color: #ffffff;
+			}
+		}
+		tr:first-child{
+			td{
+			}
+		}
+		td{
+			text-align: center;
+			padding: 15px 10px;
+		}
+	}
+	
+}//END.content
+
+
+
+
+
+// ADDITIONAL CLASSES
+
+.table-responsive {
+  min-height: .01%;
+  overflow-x: auto;
+}
+
+a{ 
+	transition: all .3s ease-out;
+	text-decoration: none;
+	color: $c-bwn;
+	&:hover{
+		color: $c-grn;
+		text-decoration: underline;
+	}
+}
+
+button{ 
+	transition: all .3s ease-out;
+}
+input{
+	transition: all .3s ease-out;
+}
+
+
+#cboxContent{
+	button{
+		transition: none;
+	}
+}
+
+
+
+
+
+
+// HACKS
+
+.tbl{
+	display: table;
+	width: 100%;
+}
+.tbl-row{
+	display: table-row;
+}
+.tbl-cell{
+	display: table-cell;
+	padding-left: 10px;
+	padding-right: 10px;
+	&:first-child{
+		padding-left: 0;
+	}
+	&:last-child{
+		padding-right: 0;
+	}
+}
+.mdl{
+	vertical-align: middle;
+}
+.vat{
+	vertical-align: top;
+}
+.txt-cent{
+	text-align: center;
+}
+.txt-left{
+	text-align: left;
+}
+.txt-rght{
+	text-align: right;
+}
+.fl-lft{
+	float:left;
+}
+.fl-rght{
+	float:right;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.c:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.d-i-b{
+	display: inline-block;
+}
+
+[class*="kd-col-"] {
+		float: left;
+}
+.kd-row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.kd-col-1 {width: 8.33%;}
+.kd-col-2 {width: 16.66%;}
+.kd-col-3 {width: 25%;}
+.kd-col-4 {width: 33.33%;}
+.kd-col-5 {width: 41.66%;}
+.kd-col-6 {width: 50%;}
+.kd-col-7 {width: 58.33%;}
+.kd-col-8 {width: 66.66%;}
+.kd-col-9 {width: 75%;}
+.kd-col-10 {width: 83.33%;}
+.kd-col-11 {width: 91.66%;}
+.kd-col-12 {width: 100%;}
+
+
+//HELPERS
+.hidden-d{
+	display: none;
+}
+.shown-d{
+	display: block;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

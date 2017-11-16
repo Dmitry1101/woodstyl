@@ -1,0 +1,108 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-contact1 {
+  background-image: url(../img/sprite.png);
+  background-position: -70px -70px;
+  width: 28px;
+  height: 28px;
+}
+.icon-contact2 {
+  background-image: url(../img/sprite.png);
+  background-position: -105px -28px;
+  width: 28px;
+  height: 28px;
+}
+.icon-contact3 {
+  background-image: url(../img/sprite.png);
+  background-position: -105px -56px;
+  width: 25px;
+  height: 19px;
+}
+.icon-fb-h {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -35px;
+  width: 35px;
+  height: 35px;
+}
+.icon-fb {
+  background-image: url(../img/sprite.png);
+  background-position: -35px -35px;
+  width: 35px;
+  height: 35px;
+}
+.icon-goog-h {
+  background-image: url(../img/sprite.png);
+  background-position: -70px 0px;
+  width: 35px;
+  height: 35px;
+}
+.icon-goog {
+  background-image: url(../img/sprite.png);
+  background-position: -70px -35px;
+  width: 35px;
+  height: 35px;
+}
+.icon-insta-h {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 35px;
+  height: 35px;
+}
+.icon-insta {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -70px;
+  width: 35px;
+  height: 35px;
+}
+.icon-marker {
+  background-image: url(../img/sprite.png);
+  background-position: -105px 0px;
+  width: 28px;
+  height: 28px;
+}
+.icon-nexxt {
+  background-image: url(../img/sprite.png);
+  background-position: -14px -105px;
+  width: 14px;
+  height: 22px;
+}
+.icon-prevv {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -105px;
+  width: 14px;
+  height: 22px;
+}
+.icon-vk-h {
+  background-image: url(../img/sprite.png);
+  background-position: -35px -70px;
+  width: 35px;
+  height: 35px;
+}
+.icon-vk {
+  background-image: url(../img/sprite.png);
+  background-position: -35px 0px;
+  width: 35px;
+  height: 35px;
+}
+.icon-zoom {
+  background-image: url(../img/sprite.png);
+  background-position: -105px -75px;
+  width: 20px;
+  height: 20px;
+}
