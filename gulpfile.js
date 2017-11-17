@@ -94,7 +94,7 @@ gulp.task('html', function () {
       prefix: '@@',
       basepath: '@file'
     }))
-    //.pipe(minifyHTML(opts))
+    .pipe(minifyHTML(opts))
     .pipe(gulp.dest('dist/'))
     .pipe(connect.reload());
     //.pipe(notify('Done!'));

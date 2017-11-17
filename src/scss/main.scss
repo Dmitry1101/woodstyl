@@ -76,8 +76,8 @@
 		}
 	}
 	&__head1{
-		font-family: $f-g;
-		font-weight: bold;
+		font-family: $f-g-b;
+		// font-weight: bold;
 	}
 	&__soc{
 		list-style-type: none;
@@ -390,11 +390,7 @@
 	&__control{
 		position: absolute;
 		top: 50%;
-		width: 50px;
-		height: 50px;
-		background-color: $c-grn;
 		z-index: 99;
-		cursor: pointer;
 		margin-top: -25px;
 		text-align: center;
 		line-height: 60px;
@@ -425,10 +421,10 @@
 		}
 		.addr{
 			margin-top: 80px;
-			font-family: $f-g;
+			font-family: $f-g-b;
 			color: $c-wh;
 			font-size: 22px;
-			font-weight: bold;
+			// font-weight: bold;
 			p{
 				margin-bottom: 20px;
 				vertical-align: middle;
@@ -494,6 +490,24 @@
 		background-color: rgba( 179, 132, 85, 0.74 );
 		color: $c-wh;
 		z-index: 9;
+		&.with-border{
+			padding-bottom: 58px;
+			position: relative;
+			.more{
+				position: absolute;
+		    // background-color: #86AF30;
+		    z-index: 99;
+		    text-align: center;
+		    line-height: 60px;
+		    bottom: 10px;
+		    right: 10px;
+			}
+			.showw__txt {
+				border-bottom: 1px solid $c-wh;
+				padding-bottom: 35px;	
+			}
+			
+		}
 	}
 	.blck-1{
 		flex-basis: 66%;
@@ -542,8 +556,8 @@
 	}
 	&__head{
 		font-size: 34px;
-		font-family: $f-g;
-		font-weight: bold;
+		font-family: $f-g-b;
+		// font-weight: bold;
 		text-transform: uppercase;
 		margin-bottom: 25px;
 		line-height: 1.2;
@@ -553,5 +567,44 @@
 	}
 }///.showw
 
+
+.m-slider__line{
+	margin-top: 15px;
+}
+
+.feat{
+	&__img{
+		min-height: 140px;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		img{
+			margin-bottom: 0;
+		}	
+	}
+	&__it{
+		text-align: center;
+	}
+	&__txt{
+		margin-top: 20px;
+		b{
+			text-transform: uppercase;
+			font-size: 19px;
+			font-family: $f-g-b;
+			line-height: 1;
+		}
+	}
+}
+
+.badv{
+	background-color: #F8F8F8;
+	.gall__cat{
+		margin-top: 0;
+		margin-bottom: 50px;
+		a{
+			padding: 0 6px;
+		}
+	}
+}
 
 @import "media";

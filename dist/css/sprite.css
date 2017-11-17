@@ -18,13 +18,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-contact1 {
   background-image: url(../img/sprite.png);
-  background-position: -70px -70px;
+  background-position: -105px -28px;
   width: 28px;
   height: 28px;
 }
 .icon-contact2 {
   background-image: url(../img/sprite.png);
-  background-position: -105px -28px;
+  background-position: -105px 0px;
   width: 28px;
   height: 28px;
 }
@@ -36,31 +36,31 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-fb-h {
   background-image: url(../img/sprite.png);
-  background-position: 0px -35px;
+  background-position: -35px 0px;
   width: 35px;
   height: 35px;
 }
 .icon-fb {
   background-image: url(../img/sprite.png);
-  background-position: -35px -35px;
+  background-position: 0px -35px;
   width: 35px;
   height: 35px;
 }
 .icon-goog-h {
   background-image: url(../img/sprite.png);
-  background-position: -70px 0px;
+  background-position: -35px -35px;
   width: 35px;
   height: 35px;
 }
 .icon-goog {
   background-image: url(../img/sprite.png);
-  background-position: -70px -35px;
+  background-position: -70px 0px;
   width: 35px;
   height: 35px;
 }
 .icon-insta-h {
   background-image: url(../img/sprite.png);
-  background-position: 0px 0px;
+  background-position: -70px -35px;
   width: 35px;
   height: 35px;
 }
@@ -72,19 +72,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-marker {
   background-image: url(../img/sprite.png);
-  background-position: -105px 0px;
+  background-position: -70px -70px;
   width: 28px;
   height: 28px;
 }
+.icon-nexxt-h {
+  background-image: url(../img/sprite.png);
+  background-position: -58px -105px;
+  width: 14px;
+  height: 22px;
+}
 .icon-nexxt {
   background-image: url(../img/sprite.png);
-  background-position: -14px -105px;
+  background-position: -16px -105px;
+  width: 14px;
+  height: 22px;
+}
+.icon-nexxt2 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -105px;
+  width: 16px;
+  height: 24px;
+}
+.icon-prevv-h {
+  background-image: url(../img/sprite.png);
+  background-position: -30px -105px;
   width: 14px;
   height: 22px;
 }
 .icon-prevv {
   background-image: url(../img/sprite.png);
-  background-position: 0px -105px;
+  background-position: -44px -105px;
   width: 14px;
   height: 22px;
 }
@@ -96,7 +114,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-vk {
   background-image: url(../img/sprite.png);
-  background-position: -35px 0px;
+  background-position: 0px 0px;
   width: 35px;
   height: 35px;
 }

@@ -9,7 +9,7 @@
 }
 
 @font-face {
-	font-family: "GothamPro";
+	font-family: "GothamProBold";
 	src: url("fonts/GothamProBold/GothamProBold.eot");
 	src: url("fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
 	url("fonts/GothamProBold/GothamProBold.woff") format("woff"),
@@ -27,6 +27,16 @@
 	url("fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: 400;
+}
+
+@font-face {
+	font-family: "OpenSansLight";
+	src: url("fonts/OpenSansLight/OpenSansLight.eot");
+	src: url("fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+	url("fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+	url("fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
 
 // @font-face {
@@ -117,15 +127,7 @@
 
 
 
-// @font-face {
-// 	font-family: "OpenSansLight";
-// 	src: url("fonts/OpenSansLight/OpenSansLight.eot");
-// 	src: url("fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
-// 	url("fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
-// 	url("fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
-// 	font-style: normal;
-// 	font-weight: normal;
-// }
+
 
 // @font-face {
 // 	font-family: "OpenSansItalic";

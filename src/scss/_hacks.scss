@@ -39,15 +39,15 @@ body {
 
 .sect-title{
 	font-size: 31px;
-	font-family: $f-g;
-	font-weight: 700;
+	font-family: $f-g-b;
+	// font-weight: 700;
 	margin-bottom: 30px;
 }
 
 .page-title{
 	font-size: 48px;
-	font-family: $f-g;
-	font-weight: 700;
+	font-family: $f-g-b;
+	// font-weight: 700;
 	margin-bottom: 30px;
 }
 
@@ -193,7 +193,21 @@ h5{
 }//END.content
 
 
+.bord{
+	position: relative;
+	&:after{
+		content: "";
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		right: 10px;
+		bottom: 10px;
+		border: 1px solid $c-wh;
+		z-index: 9;
+		transition: all .3s linear;
+	}
 
+}
 
 
 // ADDITIONAL CLASSES
