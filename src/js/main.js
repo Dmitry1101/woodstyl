@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	
+	$('body').addClass('loaded');
+
 	$('.gall__list').lightGallery({
 	    thumbnail: false,
 	    // animateThumb: false,
@@ -20,6 +23,6 @@ $(document).ready(function() {
 });
 
 
-$(window).on('load',function(){
-	$('body').addClass('loaded');
-});
+// $(window).on('load',function(){
+// 	$('body').addClass('loaded');
+// });
