@@ -12,6 +12,12 @@ body {
 	font-family: $f-o;
 	font-weight: 400;
 	color: $c-bck;
+	opacity: 0;
+	transition: opacity .3s linear;
+	color: $c-bck;
+	&.loaded{
+		opacity: 1;
+	}
 }
 
 .container-fluid{

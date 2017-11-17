@@ -18,3 +18,8 @@ $(document).ready(function() {
 	});
 	// alert('wewe');
 });
+
+
+$(window).on('load',function(){
+	$('body').addClass('loaded');
+});
