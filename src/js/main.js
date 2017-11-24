@@ -19,6 +19,29 @@ $(document).ready(function() {
 		dots: true,
 		appendDots: ".m-slider__dots",
 	});
+
+		
+	// (function(){
+		
+	// 	$('body').on('click','.txt-blck-2',function(){
+	// 		// $(this).text( objj.sum );
+	// 		console.log(objj);
+	// 	})
+
+	// 	var objj =	{
+	// 		name : "Sweety",
+	// 		surname: "Douglas",
+	// 		el: $('.sect-title.c-grn.txt-cent'),
+	// 		init: function(){
+	// 			this.sum = this.name + ' ' + this.surname;
+	// 		}
+	// 		// clicked: 
+	// 	}
+
+	// 	objj.init();
+
+	// })();
+
 	// alert('wewe');
 });
 
